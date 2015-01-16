@@ -5,11 +5,11 @@ Package.describe({
 });
 
 Package.onUse(function(api) {
-  api.use('accounts-base', ['client', 'server']);
+  api.use('accounts-base@1.1.3', ['client', 'server']);
   // Export Accounts (etc) to packages using this one.
-  api.imply('accounts-base', ['client', 'server']);
-  api.use('accounts-oauth', ['client', 'server']);
-  api.use('github', ['client', 'server']);
+  api.imply('accounts-base@1.1.3', ['client', 'server']);
+  api.use('accounts-oauth@1.1.3', ['client', 'server']);
+  api.use('github@1.1.2', ['client', 'server']);
 
   api.addFiles('dribbble_login_button.css', 'client');
 
