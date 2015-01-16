@@ -1,6 +1,7 @@
 Package.describe({
   summary: "Login service for Dribbble accounts",
-  version: "1.0.0"
+  version: "1.0.0",
+  git: "https://github.com/d2tstudio/accounts-dribbble.git"
 });
 
 Package.onUse(function(api) {
